@@ -1,0 +1,27 @@
+{
+  "name": "fake-content",
+  "version": "0.0.1",
+  "description": "its a small package which will give you fake data",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "url":"https://github.com/wa5/fake-content"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "faker",
+    "fake-data",
+    "fake-content",
+    "fake-list",
+    "fake-values"
+  ],
+  "author": "Waseem Ahmed",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
